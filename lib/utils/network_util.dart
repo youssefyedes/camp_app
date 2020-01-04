@@ -32,7 +32,7 @@ class NetworkUtil {
       if (statusCode < 200 || statusCode > 400 || json == null) {
         throw new Exception("Error while fetching data");
       }
-      return _decoder.convert(res);
+      return _decoder.convert(res); //string json ==> json object
     });
   }
 }

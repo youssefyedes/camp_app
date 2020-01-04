@@ -6,8 +6,8 @@ import 'package:flutter_app/utils/network_util.dart';
 
 class RestDatasource {
   NetworkUtil _netUtil = new NetworkUtil();
-  static final BASE_URL = "http://YOUR_BACKEND_IP/login_app_backend";
-  static final LOGIN_URL = BASE_URL + "/login.php";
+  static final BASE_URL = "http://www.mocky.io/v2/5e0faf71340000869f2d8166";
+  static final LOGIN_URL = BASE_URL + "";
   static final _API_KEY = "12345";
 
   Future<User> login(String username, String password) {
@@ -22,3 +22,4 @@ class RestDatasource {
     });
   }
 }
+

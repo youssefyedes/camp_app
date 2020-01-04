@@ -11,7 +11,7 @@ class LoginApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'My Login App',
+      title: 'Camp App',
       theme: new ThemeData(
         primarySwatch: Colors.red,
       ),

@@ -17,3 +17,4 @@ class LoginScreenPresenter {
     }).catchError((Exception error) => _view.onLoginError(error.toString()));
   }
 }
+

@@ -104,13 +104,13 @@ class LoginScreenState extends State<LoginScreen>
       body: new Container(
         decoration: new BoxDecoration(
           image: new DecorationImage(
-              image: new AssetImage("assets/login_background.jpg"),
+              image: new AssetImage("assets/images/login_background.jpg"),
               fit: BoxFit.cover),
         ),
         child: new Center(
           child: new ClipRect(
             child: new BackdropFilter(
-              filter: new ImageFilter.blur(sigmaX: 11.0, sigmaY: 10.0),
+              filter: new ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
               child: new Container(
                 child: loginForm,
                 height: 300.0,
